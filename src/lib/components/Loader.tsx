@@ -1,7 +1,15 @@
+import React from 'react'
 import styled from 'styled-components'
 
-export const Loader = () => (
-    <ActivityIndicator />
+export const Loader: React.FunctionComponent = ({ children }) => (
+    <LoaderContainer>
+        <ActivityIndicator />
+        {children && (
+            <ChildrenContainer>
+                {children}
+            </ChildrenContainer>
+        )}
+    </LoaderContainer>
 )
 
 const ActivityIndicator = styled.div`
@@ -20,4 +28,12 @@ const ActivityIndicator = styled.div`
             width: 100%;
         }
     }
+`
+
+const ChildrenContainer = styled.div`
+    text-align: center;
+`
+
+const LoaderContainer = styled.div`
+    width: 100%;
 `

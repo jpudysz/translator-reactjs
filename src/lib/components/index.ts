@@ -6,4 +6,5 @@ export { Loader } from './Loader'
 export { Confidence } from './Confidence'
 export { ExchangeLanguage } from './ExchangeLanguage'
 export { TextCounter } from './TextCounter'
+export { Message } from './Message'
 

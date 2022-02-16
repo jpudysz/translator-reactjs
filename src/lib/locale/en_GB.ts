@@ -11,6 +11,16 @@ export const en_GB: Dictionary = {
         footer: {
             flatIcon: 'FlatIcon',
             libreTranslate: 'LibreTranslate'
+        },
+        message: {
+            tryAgain: 'Try again'
+        }
+    },
+    screen: {
+        translator: {
+            loading: 'Fetching supported languages...',
+            empty: 'No supported language',
+            error: 'Something went wrong...'
         }
     }
 }
