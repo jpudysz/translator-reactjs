@@ -1,9 +1,14 @@
 export type Dictionary = {
     common: {
-        autoTranslate: string
+        autoTranslate: string,
+        companyName: string,
     },
-    companyName: string,
     components: {
+        app: {
+            loading: string,
+            error: string,
+            empty: string
+        },
         header: {
             title: string,
             github: string,
@@ -17,11 +22,9 @@ export type Dictionary = {
             tryAgain: string
         }
     },
-    screen: {
+    screens: {
         translator: {
-            loading: string,
-            error: string,
-            empty: string
+            sourceInputPlaceholder: string
         }
     }
 }
