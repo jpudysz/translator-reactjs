@@ -8,5 +8,8 @@ export const theme: AppTheme = {
         error: '#c44569',
         typography: '#c8d6e5',
         input: '#484748'
+    },
+    media: {
+        sm: 900
     }
 }

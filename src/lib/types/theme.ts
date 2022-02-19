@@ -6,5 +6,8 @@ export type AppTheme = {
         error: string,
         typography: string,
         input: string
+    },
+    media: {
+        sm: number
     }
 }
